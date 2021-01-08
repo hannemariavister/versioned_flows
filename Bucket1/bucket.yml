@@ -1,5 +1,6 @@
 flows:
-  af77b490-43f8-4eb8-b305-977b3a7f46f7: {ver: 3, file: FlowProcess1.snapshot, comments: New
-      update, author: anonymous, created: 1610015178944, flowName: FlowProcess1, flowDesc: ''}
+  af77b490-43f8-4eb8-b305-977b3a7f46f7: {ver: 4, file: FlowProcess1.snapshot, comments: Add
+      compress-processor, author: anonymous, created: 1610090518393, flowName: FlowProcess1,
+    flowDesc: ''}
 layoutVer: 1
 bucketId: eea5d53a-d3e2-4ade-badf-e96d02c97254
