@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "52b63964-5fc2-331f-b227-81c2f63010de",
+            "groupId" : "6cad164b-d170-3658-9720-4a9c46e924e2",
             "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
             "name" : "AttributesToJSON",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "52b63964-5fc2-331f-b227-81c2f63010de",
+          "groupIdentifier" : "6cad164b-d170-3658-9720-4a9c46e924e2",
           "identifier" : "1453682d-10ae-301e-b1de-f69da8affadf",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,9 +32,39 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "52b63964-5fc2-331f-b227-81c2f63010de",
+            "groupId" : "6cad164b-d170-3658-9720-4a9c46e924e2",
             "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
             "name" : "AttributesToCSV",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "6cad164b-d170-3658-9720-4a9c46e924e2",
+            "id" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
+            "name" : "ConvertJSONToSQL",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "6cad164b-d170-3658-9720-4a9c46e924e2",
+          "identifier" : "4c471ccc-660d-3102-8bf8-5d89334d889f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "6cad164b-d170-3658-9720-4a9c46e924e2",
+            "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
+            "name" : "AttributesToJSON",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -43,14 +73,14 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "52b63964-5fc2-331f-b227-81c2f63010de",
+        "identifier" : "6cad164b-d170-3658-9720-4a9c46e924e2",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "ProcessGroup1",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 582.0,
-          "y" : 231.0
+          "x" : 460.0,
+          "y" : 172.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -65,7 +95,123 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "52b63964-5fc2-331f-b227-81c2f63010de",
+          "groupIdentifier" : "6cad164b-d170-3658-9720-4a9c46e924e2",
+          "identifier" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
+          "name" : "ConvertJSONToSQL",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 385.0,
+            "y" : 575.0
+          },
+          "properties" : {
+            "table-schema-cache-size" : "100",
+            "jts-sql-param-attr-prefix" : "sql",
+            "Unmatched Field Behavior" : "Ignore Unmatched Fields",
+            "Unmatched Column Behavior" : "Fail on Unmatched Columns",
+            "jts-quoted-identifiers" : "false",
+            "jts-quoted-table-identifiers" : "false",
+            "Translate Field Names" : "true"
+          },
+          "propertyDescriptors" : {
+            "table-schema-cache-size" : {
+              "displayName" : "Table Schema Cache Size",
+              "identifiesControllerService" : false,
+              "name" : "table-schema-cache-size",
+              "sensitive" : false
+            },
+            "Table Name" : {
+              "displayName" : "Table Name",
+              "identifiesControllerService" : false,
+              "name" : "Table Name",
+              "sensitive" : false
+            },
+            "Catalog Name" : {
+              "displayName" : "Catalog Name",
+              "identifiesControllerService" : false,
+              "name" : "Catalog Name",
+              "sensitive" : false
+            },
+            "jts-sql-param-attr-prefix" : {
+              "displayName" : "SQL Parameter Attribute Prefix",
+              "identifiesControllerService" : false,
+              "name" : "jts-sql-param-attr-prefix",
+              "sensitive" : false
+            },
+            "Schema Name" : {
+              "displayName" : "Schema Name",
+              "identifiesControllerService" : false,
+              "name" : "Schema Name",
+              "sensitive" : false
+            },
+            "Unmatched Field Behavior" : {
+              "displayName" : "Unmatched Field Behavior",
+              "identifiesControllerService" : false,
+              "name" : "Unmatched Field Behavior",
+              "sensitive" : false
+            },
+            "Unmatched Column Behavior" : {
+              "displayName" : "Unmatched Column Behavior",
+              "identifiesControllerService" : false,
+              "name" : "Unmatched Column Behavior",
+              "sensitive" : false
+            },
+            "jts-quoted-identifiers" : {
+              "displayName" : "Quote Column Identifiers",
+              "identifiesControllerService" : false,
+              "name" : "jts-quoted-identifiers",
+              "sensitive" : false
+            },
+            "jts-quoted-table-identifiers" : {
+              "displayName" : "Quote Table Identifiers",
+              "identifiesControllerService" : false,
+              "name" : "jts-quoted-table-identifiers",
+              "sensitive" : false
+            },
+            "JDBC Connection Pool" : {
+              "displayName" : "JDBC Connection Pool",
+              "identifiesControllerService" : true,
+              "name" : "JDBC Connection Pool",
+              "sensitive" : false
+            },
+            "Update Keys" : {
+              "displayName" : "Update Keys",
+              "identifiesControllerService" : false,
+              "name" : "Update Keys",
+              "sensitive" : false
+            },
+            "Translate Field Names" : {
+              "displayName" : "Translate Field Names",
+              "identifiesControllerService" : false,
+              "name" : "Translate Field Names",
+              "sensitive" : false
+            },
+            "Statement Type" : {
+              "displayName" : "Statement Type",
+              "identifiesControllerService" : false,
+              "name" : "Statement Type",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.ConvertJSONToSQL",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.12.1"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "6cad164b-d170-3658-9720-4a9c46e924e2",
           "identifier" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
           "name" : "AttributesToCSV",
           "penaltyDuration" : "30 sec",
@@ -136,7 +282,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "52b63964-5fc2-331f-b227-81c2f63010de",
+          "groupIdentifier" : "6cad164b-d170-3658-9720-4a9c46e924e2",
           "identifier" : "0563cc44-62ff-3c09-b58d-239249e85640",
           "name" : "AttributesToJSON",
           "penaltyDuration" : "30 sec",
