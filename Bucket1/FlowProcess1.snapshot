@@ -15,43 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
-            "id" : "ded25862-91c4-3f40-8341-9e6c13c575d2",
-            "name" : "CompressContent",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
-          "identifier" : "5d3f51ad-2fa7-3095-ac67-ebe05c9535d4",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "failure" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
-            "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
-            "name" : "AttributesToJSON",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
+            "groupId" : "52b63964-5fc2-331f-b227-81c2f63010de",
             "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
             "name" : "AttributesToJSON",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
+          "groupIdentifier" : "52b63964-5fc2-331f-b227-81c2f63010de",
           "identifier" : "1453682d-10ae-301e-b1de-f69da8affadf",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -62,7 +32,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
+            "groupId" : "52b63964-5fc2-331f-b227-81c2f63010de",
             "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
@@ -73,14 +43,14 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
+        "identifier" : "52b63964-5fc2-331f-b227-81c2f63010de",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "ProcessGroup1",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 414.0,
-          "y" : 152.0
+          "x" : 582.0,
+          "y" : 231.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -95,66 +65,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
-          "identifier" : "ded25862-91c4-3f40-8341-9e6c13c575d2",
-          "name" : "CompressContent",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 394.0,
-            "y" : 598.0
-          },
-          "properties" : {
-            "Compression Format" : "use mime.type attribute",
-            "Mode" : "compress",
-            "Compression Level" : "1",
-            "Update Filename" : "false"
-          },
-          "propertyDescriptors" : {
-            "Compression Format" : {
-              "displayName" : "Compression Format",
-              "identifiesControllerService" : false,
-              "name" : "Compression Format",
-              "sensitive" : false
-            },
-            "Mode" : {
-              "displayName" : "Mode",
-              "identifiesControllerService" : false,
-              "name" : "Mode",
-              "sensitive" : false
-            },
-            "Compression Level" : {
-              "displayName" : "Compression Level",
-              "identifiesControllerService" : false,
-              "name" : "Compression Level",
-              "sensitive" : false
-            },
-            "Update Filename" : {
-              "displayName" : "Update Filename",
-              "identifiesControllerService" : false,
-              "name" : "Update Filename",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.CompressContent",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.12.1"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
+          "groupIdentifier" : "52b63964-5fc2-331f-b227-81c2f63010de",
           "identifier" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
           "name" : "AttributesToCSV",
           "penaltyDuration" : "30 sec",
@@ -225,7 +136,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "a5fbdc75-f803-367a-95e4-7eff3c82ebbf",
+          "groupIdentifier" : "52b63964-5fc2-331f-b227-81c2f63010de",
           "identifier" : "0563cc44-62ff-3c09-b58d-239249e85640",
           "name" : "AttributesToJSON",
           "penaltyDuration" : "30 sec",
