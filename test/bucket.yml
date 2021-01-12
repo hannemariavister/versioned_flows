@@ -1,5 +1,5 @@
 flows:
-  7bc2ef52-aefd-4fbc-92d1-85dc08bfb79c: {ver: 1, file: test2.snapshot, comments: '',
-    author: anonymous, created: 1610455347764, flowName: test2, flowDesc: ''}
+  7bc2ef52-aefd-4fbc-92d1-85dc08bfb79c: {ver: 2, file: test2.snapshot, comments: '',
+    author: anonymous, created: 1610455543879, flowName: test2, flowDesc: ''}
 layoutVer: 1
 bucketId: a32f858d-7ac1-47d1-a55b-a50196ac0c7e
