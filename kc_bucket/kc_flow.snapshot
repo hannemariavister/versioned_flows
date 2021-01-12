@@ -14,7 +14,19 @@
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
         "identifier" : "784983b5-8df3-387d-9ee7-de5fa0579e89",
-        "inputPorts" : [ ],
+        "inputPorts" : [ {
+          "allowRemoteAccess" : false,
+          "componentType" : "INPUT_PORT",
+          "concurrentlySchedulableTaskCount" : 1,
+          "groupIdentifier" : "784983b5-8df3-387d-9ee7-de5fa0579e89",
+          "identifier" : "7d223b5f-8ea0-3d91-9cc7-b9d66bb47219",
+          "name" : "input1",
+          "position" : {
+            "x" : 577.0,
+            "y" : 156.0
+          },
+          "type" : "INPUT_PORT"
+        } ],
         "labels" : [ ],
         "name" : "kc_flow",
         "outputPorts" : [ ],

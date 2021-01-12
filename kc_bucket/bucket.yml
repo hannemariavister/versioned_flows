@@ -1,5 +1,5 @@
 flows:
-  1007fd60-a70a-4585-9af7-28218b0282f6: {ver: 1, file: kc_flow.snapshot, comments: '',
-    author: anonymous, created: 1610442540304, flowName: kc_flow, flowDesc: ''}
+  1007fd60-a70a-4585-9af7-28218b0282f6: {ver: 2, file: kc_flow.snapshot, comments: input1,
+    author: anonymous, created: 1610442660737, flowName: kc_flow, flowDesc: ''}
 layoutVer: 1
 bucketId: d17829cb-8ef2-456f-a137-45a23259322b
