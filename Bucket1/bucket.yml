@@ -1,6 +1,5 @@
 flows:
-  af77b490-43f8-4eb8-b305-977b3a7f46f7: {ver: 9, file: FlowProcess1.snapshot, comments: Updated
-      with ny processor, author: anonymous, created: 1610362263585, flowName: FlowProcess1,
-    flowDesc: ''}
+  af77b490-43f8-4eb8-b305-977b3a7f46f7: {ver: 10, file: FlowProcess1.snapshot, comments: 'deleted ',
+    author: anonymous, created: 1610454776568, flowName: FlowProcess1, flowDesc: ''}
 layoutVer: 1
 bucketId: eea5d53a-d3e2-4ade-badf-e96d02c97254
