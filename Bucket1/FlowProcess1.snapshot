@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+            "groupId" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
             "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
             "name" : "AttributesToJSON",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+          "groupIdentifier" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
           "identifier" : "1453682d-10ae-301e-b1de-f69da8affadf",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,7 +32,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+            "groupId" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
             "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
@@ -45,73 +45,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
-            "id" : "bf72f369-7143-3e26-a14f-2442c554a1ee",
-            "name" : "SplitText",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
-          "identifier" : "28d79a80-d810-32f4-aba1-d40b4e38a45f",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
-            "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
-            "name" : "AttributesToCSV",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
-            "id" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
-            "name" : "ConvertJSONToSQL",
-            "type" : "PROCESSOR"
-          },
-          "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
-          "identifier" : "4c471ccc-660d-3102-8bf8-5d89334d889f",
-          "labelIndex" : 1,
-          "loadBalanceCompression" : "DO_NOT_COMPRESS",
-          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
-          "name" : "",
-          "partitioningAttribute" : "",
-          "prioritizers" : [ ],
-          "selectedRelationships" : [ "success" ],
-          "source" : {
-            "comments" : "",
-            "groupId" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
-            "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
-            "name" : "AttributesToJSON",
-            "type" : "PROCESSOR"
-          },
-          "zIndex" : 0
-        }, {
-          "backPressureDataSizeThreshold" : "1 GB",
-          "backPressureObjectThreshold" : 10000,
-          "bends" : [ ],
-          "componentType" : "CONNECTION",
-          "destination" : {
-            "comments" : "",
-            "groupId" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+            "groupId" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
             "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+          "groupIdentifier" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
           "identifier" : "9cf6fcc9-6d4b-323a-848b-dc605da76460",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -122,9 +62,39 @@
           "selectedRelationships" : [ "sql" ],
           "source" : {
             "comments" : "",
-            "groupId" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+            "groupId" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
             "id" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
             "name" : "ConvertJSONToSQL",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
+            "id" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
+            "name" : "ConvertJSONToSQL",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
+          "identifier" : "4c471ccc-660d-3102-8bf8-5d89334d889f",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
+            "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
+            "name" : "AttributesToJSON",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -133,14 +103,14 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+        "identifier" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "ProcessGroup1",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 534.0,
-          "y" : 152.0
+          "x" : 569.0,
+          "y" : 195.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -155,7 +125,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+          "groupIdentifier" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
           "identifier" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
           "name" : "ConvertJSONToSQL",
           "penaltyDuration" : "30 sec",
@@ -271,7 +241,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+          "groupIdentifier" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
           "identifier" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
           "name" : "AttributesToCSV",
           "penaltyDuration" : "30 sec",
@@ -342,7 +312,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
+          "groupIdentifier" : "a2823225-8f93-3333-9217-d0589e2bb2b3",
           "identifier" : "0563cc44-62ff-3c09-b58d-239249e85640",
           "name" : "AttributesToJSON",
           "penaltyDuration" : "30 sec",
@@ -393,69 +363,6 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "org.apache.nifi.processors.standard.AttributesToJSON",
-          "yieldDuration" : "1 sec"
-        }, {
-          "autoTerminatedRelationships" : [ ],
-          "bulletinLevel" : "WARN",
-          "bundle" : {
-            "artifact" : "nifi-standard-nar",
-            "group" : "org.apache.nifi",
-            "version" : "1.12.1"
-          },
-          "comments" : "",
-          "componentType" : "PROCESSOR",
-          "concurrentlySchedulableTaskCount" : 1,
-          "executionNode" : "ALL",
-          "groupIdentifier" : "bc3bb44d-da9e-3684-b957-21e5a89fbc61",
-          "identifier" : "bf72f369-7143-3e26-a14f-2442c554a1ee",
-          "name" : "SplitText",
-          "penaltyDuration" : "30 sec",
-          "position" : {
-            "x" : 1000.0,
-            "y" : 176.0
-          },
-          "properties" : {
-            "Remove Trailing Newlines" : "true",
-            "Header Line Count" : "0"
-          },
-          "propertyDescriptors" : {
-            "Remove Trailing Newlines" : {
-              "displayName" : "Remove Trailing Newlines",
-              "identifiesControllerService" : false,
-              "name" : "Remove Trailing Newlines",
-              "sensitive" : false
-            },
-            "Maximum Fragment Size" : {
-              "displayName" : "Maximum Fragment Size",
-              "identifiesControllerService" : false,
-              "name" : "Maximum Fragment Size",
-              "sensitive" : false
-            },
-            "Header Line Marker Characters" : {
-              "displayName" : "Header Line Marker Characters",
-              "identifiesControllerService" : false,
-              "name" : "Header Line Marker Characters",
-              "sensitive" : false
-            },
-            "Header Line Count" : {
-              "displayName" : "Header Line Count",
-              "identifiesControllerService" : false,
-              "name" : "Header Line Count",
-              "sensitive" : false
-            },
-            "Line Split Count" : {
-              "displayName" : "Line Split Count",
-              "identifiesControllerService" : false,
-              "name" : "Line Split Count",
-              "sensitive" : false
-            }
-          },
-          "runDurationMillis" : 0,
-          "scheduledState" : "ENABLED",
-          "schedulingPeriod" : "0 sec",
-          "schedulingStrategy" : "TIMER_DRIVEN",
-          "style" : { },
-          "type" : "org.apache.nifi.processors.standard.SplitText",
           "yieldDuration" : "1 sec"
         } ],
         "remoteProcessGroups" : [ ],
