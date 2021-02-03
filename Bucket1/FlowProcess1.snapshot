@@ -15,13 +15,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "b627994d-e283-3a07-8e5f-2ede349cbd12",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "44ea7604-2f2b-3b1e-b1a4-a0f43d8b00f9",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -32,7 +32,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
@@ -45,13 +45,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
             "name" : "AttributesToJSON",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "1453682d-10ae-301e-b1de-f69da8affadf",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -62,7 +62,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
@@ -75,13 +75,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
             "name" : "ConvertJSONToSQL",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "4c471ccc-660d-3102-8bf8-5d89334d889f",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -92,7 +92,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "0563cc44-62ff-3c09-b58d-239249e85640",
             "name" : "AttributesToJSON",
             "type" : "PROCESSOR"
@@ -105,13 +105,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "9cf6fcc9-6d4b-323a-848b-dc605da76460",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -122,7 +122,7 @@
           "selectedRelationships" : [ "sql" ],
           "source" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
             "name" : "ConvertJSONToSQL",
             "type" : "PROCESSOR"
@@ -135,13 +135,13 @@
           "componentType" : "CONNECTION",
           "destination" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "3d6caddf-c4a1-3531-aa73-af32b0447b5c",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
           },
           "flowFileExpiration" : "0 sec",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "dcd23fe1-fa8d-3beb-9f94-4acf19035c26",
           "labelIndex" : 1,
           "loadBalanceCompression" : "DO_NOT_COMPRESS",
@@ -152,7 +152,7 @@
           "selectedRelationships" : [ "success" ],
           "source" : {
             "comments" : "",
-            "groupId" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+            "groupId" : "5cefde5d-2946-3211-8242-d06f16f64884",
             "id" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
             "name" : "AttributesToCSV",
             "type" : "PROCESSOR"
@@ -163,14 +163,14 @@
         "flowFileConcurrency" : "UNBOUNDED",
         "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
         "funnels" : [ ],
-        "identifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+        "identifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
         "inputPorts" : [ ],
         "labels" : [ ],
         "name" : "ProcessGroup1",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 381.0,
-          "y" : 205.0
+          "x" : 672.0,
+          "y" : 248.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -185,7 +185,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "bdee6ea0-0452-33a5-bf7e-74305730dd84",
           "name" : "ConvertJSONToSQL",
           "penaltyDuration" : "30 sec",
@@ -293,6 +293,54 @@
           "autoTerminatedRelationships" : [ ],
           "bulletinLevel" : "WARN",
           "bundle" : {
+            "artifact" : "nifi-stateful-analysis-nar",
+            "group" : "org.apache.nifi",
+            "version" : "1.12.1"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
+          "identifier" : "ee912fc8-2921-326a-af74-a67ddfa1a220",
+          "name" : "AttributeRollingWindow",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 568.0,
+            "y" : 16.0
+          },
+          "properties" : { },
+          "propertyDescriptors" : {
+            "Value to track" : {
+              "displayName" : "Value to track",
+              "identifiesControllerService" : false,
+              "name" : "Value to track",
+              "sensitive" : false
+            },
+            "Time window" : {
+              "displayName" : "Time window",
+              "identifiesControllerService" : false,
+              "name" : "Time window",
+              "sensitive" : false
+            },
+            "Sub-window length" : {
+              "displayName" : "Sub-window length",
+              "identifiesControllerService" : false,
+              "name" : "Sub-window length",
+              "sensitive" : false
+            }
+          },
+          "runDurationMillis" : 0,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.stateful.analysis.AttributeRollingWindow",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ ],
+          "bulletinLevel" : "WARN",
+          "bundle" : {
             "artifact" : "nifi-standard-nar",
             "group" : "org.apache.nifi",
             "version" : "1.12.1"
@@ -301,7 +349,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "3d6caddf-c4a1-3531-aa73-af32b0447b5c",
           "name" : "AttributesToCSV",
           "penaltyDuration" : "30 sec",
@@ -372,7 +420,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "6b5eb562-8b85-3a16-80f2-07b443ec1977",
           "name" : "AttributesToCSV",
           "penaltyDuration" : "30 sec",
@@ -443,7 +491,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "b627994d-e283-3a07-8e5f-2ede349cbd12",
           "name" : "AttributesToCSV",
           "penaltyDuration" : "30 sec",
@@ -514,7 +562,7 @@
           "componentType" : "PROCESSOR",
           "concurrentlySchedulableTaskCount" : 1,
           "executionNode" : "ALL",
-          "groupIdentifier" : "5a5f9574-13a8-33e3-aa48-e700a5fb0165",
+          "groupIdentifier" : "5cefde5d-2946-3211-8242-d06f16f64884",
           "identifier" : "0563cc44-62ff-3c09-b58d-239249e85640",
           "name" : "AttributesToJSON",
           "penaltyDuration" : "30 sec",
